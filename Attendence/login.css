@@ -1,0 +1,30 @@
+body{
+   background-image: url('Image/login.webp');
+   margin: 50px;
+   background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+.reg_form{
+    width: 50%;
+    margin: 20px auto;
+    box-shadow: 5px 5px 10px red;
+    padding: 50px;
+    background-color: rgb(34, 29, 29);
+   opacity: .8;
+    border-radius: 10px;
+   
+}   
+
+.sign_up_btn{
+    width: 50%;
+    
+}
+label{
+    color: white;
+}
+input{
+    height: 42px;
+    
+}
+
