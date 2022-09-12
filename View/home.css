@@ -1,0 +1,78 @@
+body{
+    margin: 5px;
+}
+.top-header{
+    list-style: none;
+    display: flex;
+    padding: auto 0;
+}
+.top-header li{
+    margin: 0 20px;
+}
+.head-1{
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    padding: 5px;
+}
+.top-nav{
+    list-style: none;
+}
+.top-nav li{
+    margin: 0 20px;
+}
+.head-2{
+    padding: 15px 0;
+}
+.rent-car{
+    width: 130px;
+    height: 50px;
+    border: 1px solid green;
+    border-radius: 20px;
+    color:green ;
+}
+.rent-car:hover{
+    background-color: green;
+    color: red;
+}
+img{
+    width: 100%;
+}
+
+.car-rent{
+    margin: 90px 10px;
+    border: 1px solid gainsboro;
+    padding: 40px 20px;
+}
+.car-rent select{
+    color: white;
+}
+.car-rent select, input{
+    
+    width: 200px;
+    height: 40px;
+    text-align: center;
+    border: 1px solid green;
+    border-radius: 5px;
+}
+
+.rent-serach{
+    width: 200px;
+    height: 40px;
+}
+.rent-car-title{
+   
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.footer{
+    padding:30px;
+    background-color: black;
+    color: white;
+}
+.footer p,span{
+    font-size: 13px;
+}
+
+
+
