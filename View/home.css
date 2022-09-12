@@ -33,7 +33,7 @@ body{
 }
 .rent-car:hover{
     background-color: green;
-    color: white;
+    color: red;
 }
 img{
     width: 100%;
