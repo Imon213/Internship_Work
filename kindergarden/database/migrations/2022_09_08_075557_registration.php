@@ -13,17 +13,13 @@ return new class extends Migration
      */
     public function up()
     {
-        Schema::create('registration', function (Blueprint $table) {
+        Schema::create('registrations', function (Blueprint $table) {
             $table->id();
             $table->string('name');
             $table->string('email');
-            $table->integer('phone');
-            $table->string('dob');
-            $table->string('address');
+            $table->string('username');
             $table->string('password');
-            $table->timestamps();
         });
-        
     }
 
     /**

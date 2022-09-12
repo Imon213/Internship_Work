@@ -1,7 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\Auth\Registration;
+use App\Http\Controllers\Auth\RegisterController;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -13,5 +14,8 @@ use App\Http\Controllers\Auth\Registration;
 |
 */
 
-
-Route::get('/',[Registration::class,'Registration'])->name('registration');
+Route::get('/', function () {
+    return view('home');
+});
+Route::get('/registration',[RegisterController::class, 'registration'])->name('registration');
+Route::post('/register',[RegisterController::class, 'register'])->name('register');
