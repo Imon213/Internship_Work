@@ -1,0 +1,22 @@
+.sidenav {
+    height: 100%; 
+    width: 20%; 
+    position: fixed;
+    z-index: 1; 
+    top: 0; 
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden; 
+}
+.sidenav h1{
+    color: red;
+}
+.story{
+    width: 53%;
+    border: 15px;
+    padding: 50px;
+    margin: 20px;
+    margin-left: 23%;
+    margin-top:10%;
+    min-height: 100px;
+}
